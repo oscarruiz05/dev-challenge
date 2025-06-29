@@ -12,8 +12,8 @@ const Header = () => {
 
   const navItems = [
     { name: "Inicio", path: "/", icon: null },
-    { name: "Retos", path: "/retos", icon: Code2 },
-    { name: "Clasificación", path: "/clasificacion", icon: Trophy },
+    { name: "Retos", path: "/challenges", icon: Code2 },
+    { name: "Clasificación", path: "/leaderboard", icon: Trophy },
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
