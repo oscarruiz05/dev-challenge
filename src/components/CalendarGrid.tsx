@@ -90,23 +90,6 @@ const CalendarGrid = () => {
             );
           })}
         </div>
-
-        <div className="text-center mt-12">
-          <div className="inline-flex items-center gap-6 bg-slate-800/50 backdrop-blur-sm rounded-2xl px-8 py-4 border border-slate-700/50">
-            <div className="flex items-center gap-2">
-              <CheckCircle className="w-4 h-4 text-emerald-400" />
-              <span className="text-slate-300 text-sm">Completado</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4 text-yellow-400" />
-              <span className="text-slate-300 text-sm">Disponible</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Lock className="w-4 h-4 text-slate-500" />
-              <span className="text-slate-300 text-sm">Próximamente</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
