@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 import CalendarGrid from "@/components/CalendarGrid";
-import BackToTop from "@/components/BackToTop";
+import BackToTop from "@/components/layout/BackToTop";
 
 const Calendar = () => {
   return (
