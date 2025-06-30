@@ -33,7 +33,7 @@ export default function ChallengePage({ params }: { params: { id: string } }) {
                   <TabsTrigger
                     key={tab.value}
                     value={tab.value}
-                    className="data-[state=active]:bg-slate-600 data-[state=active]:text-white"
+                    className="data-[state=active]:bg-slate-600 data-[state=active]:text-white cursor-pointer"
                   >
                     {React.createElement(tab.icon, {
                       className: "mr-2 h-4 w-4",
@@ -52,7 +52,7 @@ export default function ChallengePage({ params }: { params: { id: string } }) {
                 value={"{}"}
                 onValueChange={(code) => console.log(code)}
                 placeholder={`Enter your javascript code here...`}
-                className="border-t-0 rounded-t-none focus-within:ring-1 focus-within:ring-inset focus-within:ring-ring h-2/3"
+                className="border-t-0 rounded-t-none focus-within:ring-1 focus-within:ring-inset focus-within:ring-ring h-2/4"
               />
             </div>
           </div>
